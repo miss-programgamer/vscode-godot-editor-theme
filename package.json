@@ -1,21 +1,22 @@
 {
-  "name": "godot-editor-theme",
-  "displayName": "Godot Editor Theme",
-  "description": "Theme based on the Godot editor's colors.",
-  "version": "1.0.0",
-  "engines": {
-    "vscode": "^1.93.1"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Godot Editor Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/godot-editor-theme.json"
-      }
-    ]
-  }
+	"name": "godot-editor-theme",
+	"icon": "images/icon.png",
+	"displayName": "Godot Editor Theme",
+	"description": "Theme based on the Godot editor's colors.",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.93.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Godot Editor Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/godot-editor-theme.json"
+			}
+		]
+	}
 }
