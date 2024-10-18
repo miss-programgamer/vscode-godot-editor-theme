@@ -1,8 +1,10 @@
 {
 	"name": "godot-editor-theme",
-	"icon": "images/icon.png",
 	"displayName": "Godot Editor Theme",
 	"description": "Theme based on the Godot editor's colors.",
+	"publisher": "mireille-arseneault",
+	"icon": "images/icon.png",
+	"license": "MIT",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.93.1"
@@ -18,5 +20,9 @@
 				"path": "./themes/godot-editor-theme.json"
 			}
 		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/miss-programgamer/vscode-godot-editor-theme.git"
 	}
 }
